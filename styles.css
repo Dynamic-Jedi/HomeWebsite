@@ -1,0 +1,654 @@
+/*START OF UNIVERSAL STYLES*/
+
+@media only screen and (max-width: 600px){
+
+  .navbar{display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        border: 0.35vh solid red;
+
+         font-size: 1.0em; color: red;
+         font-family: impact;
+         margin-left: 0.5vh;
+         margin-right: 0.5vh;
+         padding-top:0.4vh;
+
+         background: repeating-linear-gradient(45deg, #000000, #000000 10px, #bd0900 10px, #bd0900 20px); margin-top: 10px;
+
+       }
+
+
+
+.navbar a{color: #fc3200;  margin-right: 0.5vh; margin-left: 0.5vh;
+          padding:0.5vh;
+          margin:0.4vh;
+          flex: 1;
+          text-align: center;
+          background-color: black; border: 0.3vh solid orange;}
+
+
+
+.mainLogo{display: flex; justify-content: center;}
+.mainLogo img{width: 90%; margin-left: 4vh;}
+
+}
+
+
+@media only screen and (min-width: 600px){
+
+.navbar{display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      border: 0.35vh solid red;
+
+       font-size: 1.0em; color: red;
+       font-family: impact;
+       margin-left: 0.5vh;
+       margin-right: 0.5vh;
+       padding-top:0.4vh;
+
+       background: repeating-linear-gradient(45deg, #000000, #000000 10px, #bd0900 10px, #bd0900 20px); margin-top: 10px;
+
+     }
+
+
+
+.navbar a{color: #fc3200;  margin-right: 0.5vh; margin-left: 0.5vh;
+        padding:0.5vh;
+        margin:0.4vh;
+        flex: 1;
+        text-align: center;
+        background-color: black; border: 0.3vh solid orange;}
+
+
+
+.mainLogo{ display: flex; justify-content: center;}
+.mainLogo img{width: 40%;
+
+
+ }
+
+
+}
+
+/*END OF UNIVERSAL STYLES*/
+
+
+body{background-color: black; color: white;}
+
+
+/*START OF CGI PAGE STYLES*/
+
+
+@media only screen and (max-width: 600px){
+
+  .cgiWorkSection{
+
+    border: 0.4vh solid yellow;
+    align-items: center;
+
+  }
+
+  .cgiWorkSectionHeadingBox{
+
+    width: 60%;
+
+    font-family: Helvetica;
+
+    border: 2px solid green;
+    text-align: center;
+    margin-left: 12vh;
+    background: repeating-linear-gradient(45deg, #e8e8e8, #e8e8e8 10px, #c40000 10px, #c40000 20px);
+    align-items: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+
+
+  }
+
+  .cgiWorkSection h2{
+    width: 80%;
+    font-family: Helvetica;
+    color: #00ff11;
+    border: 2px solid green;
+    text-align: center;
+    margin-left: 4vh;
+    background: black;
+  }
+
+
+  .cgiWorkSectionPictures{
+
+    display: flex;
+    flex-flow: column;
+    margin-left: 2vh;
+    margin-right: 2vh;
+
+
+  }
+
+
+
+  .cgiWorkSectionPictures img{
+    width: 100%;
+    margin: 1vh;
+    border: 0.2vh solid #7200ab;
+
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 600px){
+
+  .cgiWorkSection{
+
+    border: 0.4vh solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+  }
+
+  .cgiWorkSectionHeadingBox{
+
+    width: 60%;
+
+    font-family: Helvetica;
+
+    border: 2px solid green;
+    text-align: center;
+    margin-left: 12vh;
+    background: repeating-linear-gradient(45deg, #e8e8e8, #e8e8e8 10px, #c40000 10px, #c40000 20px);
+    align-items: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+
+
+  }
+
+  .cgiWorkSection h2{
+    width: 80%;
+    font-family: Helvetica;
+    color: #00ff11;
+    border: 2px solid green;
+    text-align: center;
+    margin-left: 4vh;
+    background: black;
+  }
+
+
+
+
+  .cgiWorkSectionPictures{
+
+    display: grid;
+
+
+    grid-template-columns: repeat(2, 80vh);
+    margin-left: 2vh;
+    margin-right: 2vh;
+    grid-gap: 2vh;
+
+
+  }
+
+
+
+  .cgiWorkSectionPictures img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1vh;
+
+    border: 0.2vh solid #7200ab;
+
+  }
+
+
+}
+
+/*END OF CGI PAGE STYLES*/
+
+
+/*START OF HOME PAGE*/
+
+
+@media only screen and (max-width: 600px){
+
+.homepageSection{
+  border: 0.2vh solid green;
+  margin: 4vh;
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+}
+
+.homepageSection h3{
+  color: white;
+  background-color: red;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  border: 0.5vh solid purple;
+}
+
+
+
+.homepagePictureArea{
+              background: black;
+              border: 0.5vh ridge yellow;
+              display: flex;
+              flex-direction: row;
+              width: 100%;
+
+
+}
+
+.homepagePictureArea h3{
+
+  border: 1vh solid green;
+}
+
+
+
+
+
+.homepageSectionPicture a img{
+  border: 2px solid blue;
+
+
+  margin: 1vh;
+  max-width: 90%;
+  max-height: 90%;
+
+}
+
+}
+
+
+
+@media only screen and (min-width: 600px){
+
+  .homepageSection{
+    border: 2px solid green;
+    margin: 4vh;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+
+
+  .homepagePictureArea{
+                border: 5px ridge yellow;
+                display: flex;
+                flex-direction: row;
+                width: 65%;
+
+
+  }
+
+  .homepagePictureArea h3{
+    border: 1vh solid green;
+  }
+
+
+
+
+
+  .homepageSectionPicture a img{
+    border: 2px solid blue;
+
+
+    margin: 1vh;
+    max-width: 90%;
+    max-height: 90%;
+
+  }
+
+
+
+
+}
+
+
+#musicWorkTable{border: 5px ridge yellow; display: grid;}
+
+.tableHeading{color:red; padding: 15px; font-size: 1.4em; font-family: arial black; font-style: italic; padding-left: 250px; border: 5px solid black; background: repeating-linear-gradient(45deg, #000000, #000000 10px, #383838 10px, #383838 20px);}
+
+#tableHeading2{color:red; padding: 15px; font-size: 1.4em; font-family: arial black; font-style: italic; padding-left: 250px; border: 5px solid black; background: repeating-linear-gradient(135deg, #000000, #000000 10px, #383838 10px, #383838 20px); background-color: white;}
+
+#gameDevelopmentTableHeading{color:red; padding: 15px; font-size: 1.4em; font-family: arial black; font-style: italic; padding-left: 70px; border: 5px solid black; background: repeating-linear-gradient(45deg, #000000, #000000 10px, #383838 10px, #383838 20px);}
+
+#creativeWritingTableHeading{color:red; padding: 15px; font-size: 1.4em; font-family: arial black; font-style: italic; padding-left: 250px; border: 5px solid black; background: repeating-linear-gradient(135deg, #000000, #000000 10px, #383838 10px, #383838 20px);}
+
+.workDescriptionText{color: white; border: 2px ridge white; width: 500px; margin-right:300px; padding: 10px;}
+
+/*END OF HOME PAGE*/
+
+
+
+/*START OF MUSIC PAGE*/
+
+@media only screen and (max-width: 600px){
+
+  h1{color: #de3902;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+  #walruffPlayer{border: 0.4vh solid #00108c;
+                 background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
+                 height: 46vh;
+                 margin-top: 5vh;
+                 }
+
+
+  #walruffPlayer h3{
+                 font-family: Helvetica;
+                 margin-left: 7vh;
+                 margin-right: 4vh;
+                 background-color: black;
+                 padding: 1.5vh;
+                 border: 0.5vh dashed #91bbff;
+                 color: #36f599;
+  }
+
+
+  #walruffPlayer iframe{
+                  border: 0.2vh solid orange;
+                  width: 80%;
+                  margin-left: 7vh;
+                  margin-top: 2vh;
+
+  }
+
+
+  #walruffPlayerRed{border: 0.4vh solid green;
+                    margin-top: 5vh;
+                    background: repeating-linear-gradient(45deg, #034000, #034000 10px, #016e30 10px, #016e30 20px);
+
+
+                       }
+
+
+  #walruffPlayerRed h3{
+                      font-family: Helvetica;
+                        margin-left: 7vh;
+                      margin-right: 4vh;
+                      background-color:black;
+                      padding: 1.5vh;
+                      border: 0.5vh dashed #944000;
+                      color: #ff1100;
+                       }
+
+
+  #walruffPlayerRed iframe{
+                    height: 40vh;
+                    margin-left: 10vh;
+                    margin-top: 4vh;
+  }
+
+
+}
+
+@media only screen and (min-width: 1200px){
+
+  h1{color: #de3902;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+  #walruffPlayer{border: 0.4vh solid #00108c;
+                 background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
+                 height: 60vh;
+                 width: 90vh;
+
+                 margin: 0 auto;
+                 margin-top: 3vh;
+
+                 }
+
+
+  #walruffPlayer h3{
+                 font-family: Helvetica;
+                 margin-left: 7vh;
+                 margin-right: 4vh;
+                 background-color: black;
+                 padding: 1.5vh;
+                 border: 0.5vh dashed #91bbff;
+                 color: #36f599;
+  }
+
+
+  #walruffPlayer iframe{
+                  border: 0.2vh solid orange;
+                  width: 80%;
+                  height: 50%;
+                  margin-left: 7vh;
+                  margin-top: 2vh;
+
+  }
+
+
+  #walruffPlayerRed{border: 0.4vh solid green;
+                    margin-top: 5vh;
+                    background: repeating-linear-gradient(45deg, #034000, #034000 10px, #016e30 10px, #016e30 20px);
+                    margin: 0 auto;
+                    margin-top: 3vh;
+                    width: 40%;
+
+                       }
+
+
+  #walruffPlayerRed h3{
+                      font-family: Helvetica;
+                        margin-left: 7vh;
+                      margin-right: 4vh;
+                      background-color:black;
+                      padding: 1.5vh;
+                      border: 0.5vh dashed #944000;
+                      color: #ff1100;
+                       }
+
+
+  #walruffPlayerRed iframe{
+                    height: 40vh;
+                    margin-left: 10vh;
+                    margin-top: 4vh;
+                    border: 0.3vh solid red;
+  }
+
+
+
+}
+
+
+
+
+#WalruffDescriptionText{border: 2px solid white; color: #e3e9ff; width: 400px; float: right; margin-right: 20px; padding: 15px;}
+#WalruffDescriptionTextRed{border: 2px solid white; color: #e3e9ff; width: 400px; float: right; margin-right: 50px; padding: 15px; position: relative; margin-top: -400px;}
+
+
+/*END OF MUSIC PAGE*/
+
+
+/*START OF CREATIVE WRITING PAGE*/
+
+@media only screen and (max-width: 600px) {
+
+.receiverReviewTextBox h3{
+  color: white;
+  font-family: Helvetica;
+  font-style: italic;
+}
+
+
+
+
+.receiverReviewTextBox:nth-child(even){
+  border: 0.2vh solid #e88700;
+  padding: 4vh;
+  background-color: #820000;
+  width: 90%;
+  float: left;
+  margin-bottom: 1vh;
+
+}
+
+.receiverReviewTextBox:nth-child(even) p{
+  width: 100%;
+  color: #f78e05;
+  font-family: Helvetica;
+
+}
+
+.receiverReviewTextBox:nth-child(even) img{
+
+  border: 0.3vh solid #823610;
+  box-shadow: 0.5vh 0.5vh black;
+
+  width: 99%;
+
+}
+
+
+
+.receiverReviewTextBox:nth-child(odd){
+  border: 0.2vh solid #e88700;
+  padding: 4vh;
+  background-color: #000154;
+  width: 90%;
+  float: left;
+  margin-bottom: 1vh;
+}
+
+.receiverReviewTextBox:nth-child(odd) p{
+  width: 100%;
+  color:#3094ff;
+  font-family: Helvetica;
+
+}
+
+.receiverReviewTextBox:nth-child(odd) img{
+
+  border: 0.3vh solid #0222b3;
+  box-shadow: 0.5vh 0.5vh black;
+
+  width: 99%;
+
+}
+
+.receiverReviewText{color: red; font-size: 1.1em; font-family: Helvetica;}
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+
+.gameReviewArticle{
+
+  border: 0.5vh dotted blue;
+  display: grid;
+  /*background-image: url("images/PurpleCloudsBG.png");
+  background-repeat: space;*/
+  background-image: url("images/StarsBGPNG_smallerBrush.png");
+  background-repeat: repeat;
+
+
+
+  grid-template-columns: auto auto;
+}
+
+
+.receiverReviewTextBox h3{
+  color: white;
+  font-family: Helvetica;
+  font-style: italic;
+}
+
+
+
+
+.receiverReviewTextBox:nth-child(even){
+  border: 0.3vh solid #e88700;
+  padding: 4vh;
+  margin-top: 60vh;
+  background-color: #820000;
+  width: 80%;
+  float: right;
+  margin-bottom: -40vh;
+
+}
+
+.receiverReviewTextBox:nth-child(even) p{
+  width: 100%;
+  color: #f78e05;
+  font-family: Helvetica;
+
+}
+
+.receiverReviewTextBox:nth-child(even) img{
+
+  border: 0.3vh solid #823610;
+  box-shadow: 0.5vh 0.5vh black;
+
+  width: 99%;
+
+}
+
+
+
+.receiverReviewTextBox:nth-child(odd){
+  border: 0.2vh solid #e88700;
+  margin-left: 5vh;
+  margin-top: 5vh;
+  padding: 4vh;
+  background-color: #000154;
+  width: 80%;
+  float: left;
+  margin-bottom: 1vh;
+
+}
+
+.receiverReviewTextBox:nth-child(odd) p{
+  width: 100%;
+  color:#3094ff;
+  font-family: Helvetica;
+
+}
+
+.receiverReviewTextBox:nth-child(odd) img{
+
+  border: 0.3vh solid #0222b3;
+  box-shadow: 0.5vh 0.5vh black;
+
+  width: 99%;
+
+}
+
+
+.receiverReviewTextBox:nth-child(3){
+  margin-bottom: 20vh;
+}
+
+
+}
+
+
+.receiverReviewText{color: red; font-size: 1.1em; font-family: Helvetica;}
+
+/*END OF CREATIVE WRITING PAGE*/
