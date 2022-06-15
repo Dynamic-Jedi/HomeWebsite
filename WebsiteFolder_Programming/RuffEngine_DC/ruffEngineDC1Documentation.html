@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel = "stylesheet" type="text/css" href="universalStyles.css">
+    <link rel="stylesheet" href="stylesRuffEngineDC1Documentation.css">
+
+
+    <meta charset="utf-8">
+    <title>Multiple Panel Program</title>
+  </head>
+  <body>
+
+    <div class="mainLogo">
+<img src="images/mainLogo2.png" alt="Logo" width="500px" height="140px"></img>
+</div>
+
+<nav class="navbar" >
+  <a href="../../index.html">Home</a>
+  <a href="../../animationPage.html">CGI Works</a>
+  <a href="../../musicPage.html">Music</a>
+  <a href="../../programmingwork.html">Programming</a>
+  <a href="../../creativeWriting.html">Writing</a>
+</nav>
+
+<section class="terminologySection">
+
+  <h2>Terminology</h2>
+
+  <h3>CamRO:</h3>
+  <p>An array holding 2 decimal numbers. This is the rotation orientation of the camera.
+     The first number tracks how much the camera has rotated horizontally(on the XZ plane) and
+     the second number tracks how much it has rotated vertically (on the ZY plane). The angles
+     are measured in radians. A CamRO reading of [0, 0] means that the camera is directly facing straight ahead.
+   </p>
+
+   <p>
+     A rightwards turn increments CamRO[0] and a leftwards turn decrements it. An upwards turns increments CamRO[1] and a downwards
+     turn decrements it.
+   </p>
+
+</section>
+
+
+<section class="functionsSection">
+
+  <h2>Functions</h2>
+
+  <h3>CalculateCamScreenDV</h3>
+
+  <p>Purpose: To update the camScreenDV (Cam Screen Displacement Vector).
+     It calculates this using the current camRO (Camera Rotation Orientation)
+     and the camCoords (The camera’s X, Y and Z coordinates).</p>
+
+
+</section>
+
+
+<section id="highLevelOverviewDiagram">
+
+</section>
+
+
+
+</body>
+</html>

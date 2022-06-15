@@ -1,0 +1,143 @@
+/*START OF MUSIC PAGE*/
+
+@media only screen and (max-width: 600px){
+
+  h1{color: #de3902;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+  #walruffPlayer{border: 0.4vh solid #00108c;
+                 background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
+                 height: 46vh;
+                 margin-top: 5vh;
+                 }
+
+
+  #walruffPlayer h3{
+                 font-family: Helvetica;
+                 margin-left: 7vh;
+                 margin-right: 4vh;
+                 background-color: black;
+                 padding: 1.5vh;
+                 border: 0.5vh dashed #91bbff;
+                 color: #36f599;
+  }
+
+
+  #walruffPlayer iframe{
+                  border: 0.2vh solid orange;
+                  width: 80%;
+                  margin-left: 7vh;
+                  margin-top: 2vh;
+
+  }
+
+
+  #walruffPlayerRed{border: 0.4vh solid green;
+                    margin-top: 5vh;
+                    background: repeating-linear-gradient(45deg, #034000, #034000 10px, #016e30 10px, #016e30 20px);
+
+
+                       }
+
+
+  #walruffPlayerRed h3{
+                      font-family: Helvetica;
+                        margin-left: 7vh;
+                      margin-right: 4vh;
+                      background-color:black;
+                      padding: 1.5vh;
+                      border: 0.5vh dashed #944000;
+                      color: #ff1100;
+                       }
+
+
+  #walruffPlayerRed iframe{
+                    height: 40vh;
+                    margin-left: 10vh;
+                    margin-top: 4vh;
+  }
+
+
+}
+
+@media only screen and (min-width: 1200px){
+
+  h1{color: #de3902;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+  #walruffPlayer{border: 0.4vh solid #00108c;
+                 background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
+                 height: 60vh;
+                 width: 90vh;
+
+                 margin: 0 auto;
+                 margin-top: 3vh;
+
+                 }
+
+
+  #walruffPlayer h3{
+                 font-family: Helvetica;
+                 margin-left: 7vh;
+                 margin-right: 4vh;
+                 background-color: black;
+                 padding: 1.5vh;
+                 border: 0.5vh dashed #91bbff;
+                 color: #36f599;
+  }
+
+
+  #walruffPlayer iframe{
+                  border: 0.2vh solid orange;
+                  width: 80%;
+                  height: 50%;
+                  margin-left: 7vh;
+                  margin-top: 2vh;
+
+  }
+
+
+  #walruffPlayerRed{border: 0.4vh solid green;
+                    margin-top: 5vh;
+                    background: repeating-linear-gradient(45deg, #034000, #034000 10px, #016e30 10px, #016e30 20px);
+                    margin: 0 auto;
+                    margin-top: 3vh;
+                    width: 40%;
+
+                       }
+
+
+  #walruffPlayerRed h3{
+                      font-family: Helvetica;
+                        margin-left: 7vh;
+                      margin-right: 4vh;
+                      background-color:black;
+                      padding: 1.5vh;
+                      border: 0.5vh dashed #944000;
+                      color: #ff1100;
+                       }
+
+
+  #walruffPlayerRed iframe{
+                    height: 40vh;
+                    margin-left: 10vh;
+                    margin-top: 4vh;
+                    border: 0.3vh solid red;
+  }
+
+
+
+}
+
+
+
+
+#WalruffDescriptionText{border: 2px solid white; color: #e3e9ff; width: 400px; float: right; margin-right: 20px; padding: 15px;}
+#WalruffDescriptionTextRed{border: 2px solid white; color: #e3e9ff; width: 400px; float: right; margin-right: 50px; padding: 15px; position: relative; margin-top: -400px;}
+
+
+/*END OF MUSIC PAGE*/

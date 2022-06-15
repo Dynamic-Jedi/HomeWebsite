@@ -1,0 +1,30 @@
+.terminologySection{
+  border: 2px solid orange;
+  width: 90%;
+  display: block;
+  margin: auto;
+  font-family: monospace;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+.functionsSection{
+
+  border: 2px solid #bdbdbd;
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-family: monospace;
+  padding: 10px;
+}
+
+
+
+
+
+#highLevelOverviewDiagram{
+
+  border: 2px solid blue;
+}
