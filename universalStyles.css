@@ -48,7 +48,8 @@ body{background-color: black; color: white;}
        font-family: impact;
        margin-left: 0.5vh;
        margin-right: 0.5vh;
-       padding-top:0.4vh;
+       padding-top:4px;
+       padding-bottom: 4px;
 
        background: repeating-linear-gradient(45deg, #000000, #000000 10px, #bd0900 10px, #bd0900 20px); margin-top: 10px;
 
@@ -57,16 +58,29 @@ body{background-color: black; color: white;}
 
 
 .navbar a{color: #fc3200;  margin-right: 0.5vh; margin-left: 0.5vh;
-        padding:0.5vh;
-        margin:0.4vh;
+        padding:3px;
+        margin:2px;
         flex: 1;
         text-align: center;
-        background-color: black; border: 0.3vh solid orange;}
+        background-color: black; border: 2px solid orange;}
 
 
+/*
+.mainLogo{ display: flex;
+   justify-content: center;
+ }
+ */
 
-.mainLogo{ display: flex; justify-content: center;}
-.mainLogo img{width: 40%;
+ .mainLogo{
+   
+   display: flex;
+   justify-content: center;
+
+ }
+
+
+.mainLogo img{
+  max-width: 100%;
 
 
  }

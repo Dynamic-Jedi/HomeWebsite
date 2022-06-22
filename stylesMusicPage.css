@@ -7,38 +7,94 @@
     text-align: center;
   }
 
-  #walruffPlayer{border: 0.4vh solid #00108c;
+
+
+
+  #walruffPageTitle{
+
+
+    display: block;
+    margin:auto;
+
+
+    border: 10px solid #0045d9;
+    border-radius: 8px 8px;
+
+    width: 250px;
+    margin-bottom: 1.5vh;
+    background-color: white;
+
+    margin-top: 2.0vh;
+
+
+  }
+
+  #walruffPageTitle img{
+
+    width:250px;
+    margin-bottom: -5px;
+    margin-left: 0.15px;
+  }
+
+  #walruffPlayerWoodenContainer{
+    border: 4px ridge #822d01;
+    background-image: url("images/woodBG2.jpg");
+  }
+
+  #walruffPlayer{border: 0.4vh ridge #822d01;
+                display: block;
+                margin: 3.5vh;
+
+
                  background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
                  height: 46vh;
-                 margin-top: 5vh;
+
                  }
 
 
   #walruffPlayer h3{
                  font-family: Helvetica;
+                 /*
                  margin-left: 7vh;
                  margin-right: 4vh;
+                 */
                  background-color: black;
                  padding: 1.5vh;
-                 border: 0.5vh dashed #91bbff;
-                 color: #36f599;
+                 border: 0.5vh dashed #873200;
+                /* color: #36f599;*/
+              /*  color: #ffc400;*/
+              color: #ffa200;
+              display: block;
+              margin: 3vh;
   }
 
 
   #walruffPlayer iframe{
                   border: 0.2vh solid orange;
                   width: 80%;
-                  margin-left: 7vh;
-                  margin-top: 2vh;
+
+                  display: block;
+                  margin: auto;
+
+                  /*
+                  margin-left: 5vh;
+                  margin-top: 0.5vh;
+                  */
 
   }
 
 
-  #walruffPlayerRed{border: 0.4vh solid green;
-                    margin-top: 5vh;
-                    background: repeating-linear-gradient(45deg, #034000, #034000 10px, #016e30 10px, #016e30 20px);
+#blueIceContainer{
+  border: 0.4vh ridge #40a3ff;
+  background-image: url("images/blueIceBG.jpg");
+  margin-top: 3.5vh;
+
+}
 
 
+  #walruffPlayerRed{border: 0.4vh ridge #40a3ff;
+                    margin: 3.5vh;
+                    background: repeating-linear-gradient(45deg, #c9c9c9, #c9c9c9 10px, #e8f0ff 10px, #e8f0ff 20px);
                        }
 
 
@@ -46,10 +102,10 @@
                       font-family: Helvetica;
                         margin-left: 7vh;
                       margin-right: 4vh;
-                      background-color:black;
+                      background-color:#9ec8ff;
                       padding: 1.5vh;
-                      border: 0.5vh dashed #944000;
-                      color: #ff1100;
+                      border: 0.3vh dashed white;
+                      color: #0011ff;
                        }
 
 
@@ -57,76 +113,136 @@
                     height: 40vh;
                     margin-left: 10vh;
                     margin-top: 4vh;
+                    border: 0.2vh ridge white;
   }
 
 
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 600px){
 
   h1{color: #de3902;
     font-family: Helvetica;
     text-align: center;
   }
 
-  #walruffPlayer{border: 0.4vh solid #00108c;
-                 background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
-                 height: 60vh;
-                 width: 90vh;
 
-                 margin: 0 auto;
-                 margin-top: 3vh;
+
+
+  #walruffPageTitle{
+
+
+    display: block;
+    margin:auto;
+
+
+    border: 10px solid #0045d9;
+    border-radius: 8px 8px;
+
+    width: 250px;
+    margin-bottom: 1.5vh;
+    background-color: white;
+
+    margin-top: 2.0vh;
+
+
+  }
+
+  #walruffPageTitle img{
+
+    width:250px;
+    margin-bottom: -5px;
+    margin-left: 0.15px;
+  }
+
+  #walruffPlayerWoodenContainer{
+
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 4px ridge #822d01;
+    background-image: url("images/woodBG2.jpg");
+  }
+
+  #walruffPlayer{border: 0.4vh ridge #822d01;
+                display: block;
+                margin: 3.5vh;
+
+
+                 background: repeating-linear-gradient(135deg, #1200b0, #1200b0 10px, #4a5fff 10px, #4a5fff 20px);
+                 height: 46vh;
 
                  }
 
 
   #walruffPlayer h3{
                  font-family: Helvetica;
+                 /*
                  margin-left: 7vh;
                  margin-right: 4vh;
+                 */
                  background-color: black;
                  padding: 1.5vh;
-                 border: 0.5vh dashed #91bbff;
-                 color: #36f599;
+                 border: 0.5vh dashed #873200;
+                /* color: #36f599;*/
+              /*  color: #ffc400;*/
+              color: #ffa200;
+              display: block;
+              margin: 3vh;
   }
 
 
   #walruffPlayer iframe{
                   border: 0.2vh solid orange;
                   width: 80%;
-                  height: 50%;
-                  margin-left: 7vh;
-                  margin-top: 2vh;
+
+                  display: block;
+                  margin: auto;
+
+                  /*
+                  margin-left: 5vh;
+                  margin-top: 0.5vh;
+                  */
 
   }
 
 
-  #walruffPlayerRed{border: 0.4vh solid green;
-                    margin-top: 5vh;
-                    background: repeating-linear-gradient(45deg, #034000, #034000 10px, #016e30 10px, #016e30 20px);
-                    margin: 0 auto;
-                    margin-top: 3vh;
-                    width: 40%;
+  #blueIceContainer{
+    margin-left: 25%;
+    margin-right: 25%;
+  border: 0.8vh ridge #40a3ff;
+  background-image: url("images/blueIceBG.jpg");
+  background-image: linear-gradient(#ff7b00, #ff4400);
+  margin-top: 3.5vh;
 
+  }
+
+
+  #walruffPlayerRed{border: 0.4vh ridge #40a3ff;
+                    border: 2vh ridge repeating-linear-gradient(45deg, #2c59d4, #2c59d4 10px, #091991 10px, #091991 20px);
+                    margin: 3.5vh;
+                    background: repeating-linear-gradient(45deg, #2c59d4, #2c59d4 10px, #091991 10px, #091991 20px);
                        }
 
 
   #walruffPlayerRed h3{
+                      text-align: center;
                       font-family: Helvetica;
                         margin-left: 7vh;
                       margin-right: 4vh;
-                      background-color:black;
+                      background-color:#9ec8ff;
                       padding: 1.5vh;
-                      border: 0.5vh dashed #944000;
-                      color: #ff1100;
+                      border: 0.3vh dashed white;
+                      color: #0011ff;
                        }
 
 
   #walruffPlayerRed iframe{
+
                     height: 40vh;
-                    margin-left: 10vh;
+                    display: block;
+                    margin: auto;
                     margin-top: 4vh;
-                    border: 0.3vh solid red;
+                    border: 0.8vh ridge #fc7005;
   }
 
 

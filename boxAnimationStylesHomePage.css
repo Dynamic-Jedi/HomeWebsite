@@ -1,0 +1,57 @@
+@media only screen and (min-width: 600px){
+
+
+
+
+
+
+  #lightspeedBoxLeft{
+    background-image:url("images/spaceBGTest1.png"), url("images/spaceBGTest1.png");
+    background-size: 400px 800px;
+    background-repeat: repeat-y;
+    background-position: top, bottom;
+
+    position: relative;
+    border: 2px solid #5a0096;
+    float: left;
+    height: 275vh;
+    width: 17vw;
+    margin-top: 2.7vh;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+  }
+
+
+
+
+
+
+
+  #lightspeedBoxRight{
+    border: 2px solid #5a0096;
+    float: right;
+    height: 275vh;
+    width: 17vw;
+    margin-top: 2.7vh;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+
+    background-image:url("images/spaceBGTest1.png"), url("images/spaceBGTest1.png");
+    background-size: 400px 800px;
+    background-repeat: repeat-y;
+    background-position: top, bottom;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

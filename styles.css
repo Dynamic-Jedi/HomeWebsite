@@ -293,6 +293,11 @@ body{background-color: black; color: white;}
             /*  border: 0.2vh ridge yellow;*/
               display: grid;
               grid-template-columns: 50% 50%;
+
+              max-width: 100%;
+              max-height: 100%;
+
+
 }
 
 
@@ -307,23 +312,32 @@ body{background-color: black; color: white;}
 
 
 
-
+.homepageSectionPicture a{
+  z-index: 2;
+}
 
 .homepageSectionPicture a img{
 
+  position: relative;
   border: 2px solid blue;
   margin-top: 0.5vh;
   margin-left: 0.5vw;
 
-
+  transition: 0.2s;
 
   /*
   max-width: 90%;
   max-height: 90%;
   */
   width:95%;
+  z-index: 2;
+}
+
+.homepageSectionPicture a img:hover{
+  border: 2px solid red;
 
 }
+
 
 .homepageSectionPicture:nth-of-type(odd){
 
@@ -335,7 +349,67 @@ body{background-color: black; color: white;}
   margin-right: 0vh;
 }
 
+/*SDD stands for slidable description down*/
+.homepageSectionPictureSDD{
+  position: relative;
+  margin-top: -16vh;
+  margin-left: 2vw;
+  border: 0.7vh ridge black;
+  z-index: -1;
+  width: 87%;
+  height: 20%;
+  background: repeating-linear-gradient(45deg, #000000, #000000 5px, #eb8900 5px, #eb8900 10px);
+}
 
+.homepageSectionPicture a img:hover + div{
+
+  /*  margin-top: -8vh; */
+    border: 2px solid yellow;
+
+
+    animation: SDDAnimation;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: 0;
+
+}
+
+  @keyframes SDDAnimation{
+    0%{
+      margin-top: -15vh;
+    }
+
+    50%{
+      margin-top: -8.5vh;
+    }
+
+    100%{
+      margin-top: -2vh;
+    }
+
+  }
+
+
+
+.homepageSectionPictureSDD div h4{
+  background-color: #3b3b3b;
+  border-left: 2vw ridge #4a4a4a;
+  border-right: 2vw ridge #4a4a4a;
+  border-top: 1vw solid black;
+  border-bottom: 1vw solid black;
+  color: #15e6e6;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+
+  font-family: Courier;
+
+}
 
 
 
