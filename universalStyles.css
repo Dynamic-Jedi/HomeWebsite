@@ -8,13 +8,14 @@ body{background-color: black; color: white;}
   .navbar{display: flex;
         flex-direction: row;
         align-items: stretch;
-        border: 0.35vh solid red;
+        border: 3px solid red;
 
          font-size: 1.0em; color: red;
          font-family: impact;
          margin-left: 0.5vh;
          margin-right: 0.5vh;
-         padding-top:0.4vh;
+         padding-top:8px;
+         padding-bottom: 8px;
 
          background: repeating-linear-gradient(45deg, #000000, #000000 10px, #bd0900 10px, #bd0900 20px); margin-top: 10px;
 
@@ -23,7 +24,11 @@ body{background-color: black; color: white;}
 
 
 .navbar a{color: #fc3200;  margin-right: 0.5vh; margin-left: 0.5vh;
-          padding:0.5vh;
+
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 5px;
+          padding-right: 5px;
           margin:0.4vh;
           flex: 1;
           text-align: center;
@@ -72,7 +77,7 @@ body{background-color: black; color: white;}
  */
 
  .mainLogo{
-   
+
    display: flex;
    justify-content: center;
 
